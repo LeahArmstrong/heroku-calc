@@ -5,20 +5,27 @@
 The module is now available at:
 - **GitHub**: https://github.com/leaharmstrong/heroku-calc
 - **Module Path**: `github.com/leaharmstrong/heroku-calc`
-- **Latest Version**: `v1.0.0`
+- **Latest Version**: `v1.0.1` (stable)
+- **Previous Version**: `v1.0.0` (deprecated - critical bug)
 
 ## Installation Methods
 
-### Method 1: Install Specific Version (Recommended)
+### Method 1: Install Latest (Recommended)
 
 ```bash
-go install github.com/leaharmstrong/heroku-calc@v1.0.0
+go install github.com/leaharmstrong/heroku-calc@latest
 ```
 
 This will:
-- Download and compile the v1.0.0 release
+- Download and compile the latest stable release (v1.0.1)
 - Install to `$(go env GOPATH)/bin/heroku-calc`
 - Use the correct module path
+
+### Method 2: Install Specific Version
+
+```bash
+go install github.com/leaharmstrong/heroku-calc@v1.0.1
+```
 
 ### Method 2: Install Latest (After Proxy Refresh)
 
