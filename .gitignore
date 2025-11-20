@@ -1,0 +1,58 @@
+# Binaries
+heroku-calc
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+*.prof
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Vendor directory
+vendor/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.editorconfig
+
+# Build artifacts
+dist/
+build/
+
+# Cache
+.cache/
+*.cache
+
+# User home directory cache
+.heroku-calc/
+
+# Generated reports
+heroku-analysis-*.md
+
+# Project-specific config (users should create their own)
+.heroku-calc.yml
+
+# OS
+.DS_Store
+Thumbs.db
+._*
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
