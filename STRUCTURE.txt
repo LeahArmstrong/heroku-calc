@@ -1,0 +1,68 @@
+heroku-calc/
+├── main.go                                    # Application entry point
+├── go.mod                                     # Go module definition
+├── go.sum                                     # Dependency checksums
+├── .gitignore                                 # Git ignore rules
+├── README.md                                  # Full documentation
+├── QUICKSTART.md                              # Quick start guide
+├── PROJECT_SUMMARY.md                         # Technical overview
+├── STRUCTURE.txt                              # This file
+├── heroku-calc                                # Compiled binary (7.6 MB)
+│
+├── cmd/                                       # CLI Commands
+│   └── root.go                                # Cobra root command + flags
+│
+├── data/                                      # Static Data
+│   └── pricing.json                           # Heroku pricing data
+│
+└── internal/                                  # Internal Packages
+    │
+    ├── analysis/                              # Analysis Engine
+    │   ├── analyzer.go                        # Main analyzer orchestrator
+    │   ├── database.go                        # Database connection analysis
+    │   ├── redis.go                           # Redis configuration analysis
+    │   ├── web.go                             # Web tier analysis
+    │   └── recommendations.go                 # Recommendation generator
+    │
+    ├── config/                                # Configuration Management
+    │   ├── types.go                           # Type definitions
+    │   ├── loader.go                          # YAML config loader
+    │   └── saver.go                           # YAML config saver
+    │
+    ├── heroku/                                # Heroku Integration
+    │   ├── client.go                          # Heroku CLI/API client
+    │   ├── git.go                             # Git remote detection
+    │   └── addons.go                          # Addon fetching
+    │
+    ├── pricing/                               # Pricing Management
+    │   ├── types.go                           # Pricing type definitions
+    │   ├── bundled_data.go                    # Embedded pricing data
+    │   ├── fetcher.go                         # Pricing fetch + hybrid logic
+    │   ├── cache.go                           # Local caching (24hr TTL)
+    │   └── pricing_data.json                  # Embedded pricing data copy
+    │
+    ├── report/                                # Report Generation
+    │   ├── markdown.go                        # Markdown report generator
+    │   └── formatter.go                       # File I/O and formatting
+    │
+    └── ui/                                    # BubbleTea TUI
+        ├── model.go                           # App state model
+        ├── app.go                             # BubbleTea Init/Update/Msgs
+        ├── view.go                            # Main view renderer
+        ├── styles.go                          # Lipgloss styles
+        ├── actions.go                         # Apply/Export actions
+        ├── tab_renderers.go                   # Tab rendering
+        └── tabs/                              # Tab Components
+            ├── overview.go                    # Overview tab renderer
+            └── analysis.go                    # Analysis tab renderer
+
+Files by Type:
+  Go Source:        28 files (3,358 lines)
+  Markdown:         3 files (README, QUICKSTART, PROJECT_SUMMARY)
+  JSON:             2 files (pricing data)
+  Text:             2 files (go.mod, .gitignore, STRUCTURE.txt)
+  Binary:           1 file (heroku-calc executable)
+
+Total Files:        36 files
+Total Packages:     8 packages (main + cmd + 6 internal)
+Binary Size:        7.6 MB

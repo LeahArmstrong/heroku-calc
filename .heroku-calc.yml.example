@@ -1,0 +1,47 @@
+# Heroku Config Analyzer Configuration File
+# This file is automatically created when you run heroku-calc
+# and select environment variables in the Env Vars tab
+
+# Heroku application name
+app_name: my-rails-app
+
+# Git remote name used for Heroku
+git_remote: heroku
+
+# Environment variables safe to query and analyze
+# These are the variables you've selected to track
+safe_env_vars:
+  - DATABASE_URL
+  - REDIS_URL
+  - WEB_CONCURRENCY
+  - RAILS_MAX_THREADS
+  - RAILS_MIN_THREADS
+  - SIDEKIQ_CONCURRENCY
+  - DB_POOL
+  - REDIS_POOL_SIZE
+  - RACK_ENV
+  - RAILS_ENV
+  - PORT
+  - PUMA_WORKERS
+
+# Variables explicitly excluded from tracking
+# (e.g., secrets, API keys, tokens)
+excluded_env_vars:
+  - SECRET_KEY_BASE
+  - DATABASE_PASSWORD
+  - REDIS_PASSWORD
+  - AWS_SECRET_ACCESS_KEY
+  - STRIPE_SECRET_KEY
+  - SENDGRID_API_KEY
+
+# Last time this configuration was updated
+last_updated: 2025-11-19T20:00:00Z
+
+# Path to the Rails project
+project_path: /Users/username/projects/my-rails-app
+
+# Notes:
+# - Add this file to git so your team uses the same configuration
+# - Never include actual secrets or passwords
+# - The tool auto-saves when you change selections in the UI
+# - You can manually edit this file if needed
