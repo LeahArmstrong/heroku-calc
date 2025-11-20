@@ -13,6 +13,7 @@ import (
 
 // Messages for async operations
 type loadedDataMsg struct {
+	client       *heroku.Client
 	appInfo      *heroku.AppInfo
 	envVars      []config.HerokuEnvVar
 	dynos        []config.DynoFormation
@@ -70,6 +71,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			return m, nil
 		}
 
+		m.herokuClient = msg.client
 		m.appInfo = msg.appInfo
 		m.envVars = msg.envVars
 		m.dynos = msg.dynos
@@ -290,6 +292,7 @@ func loadData(projectPath, appName string) tea.Cmd {
 		}
 
 		return loadedDataMsg{
+			client:      client,
 			appInfo:     appInfo,
 			envVars:     envVars,
 			dynos:       dynos,
