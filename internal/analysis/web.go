@@ -3,7 +3,7 @@ package analysis
 import (
 	"fmt"
 
-	"github.com/egg/heroku-calc/internal/config"
+	"github.com/leaharmstrong/heroku-calc/internal/config"
 )
 
 // analyzeWebTier analyzes web tier concurrency configuration

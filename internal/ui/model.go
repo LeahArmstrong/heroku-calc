@@ -2,9 +2,9 @@ package ui
 
 import (
 	"github.com/charmbracelet/bubbles/spinner"
-	"github.com/egg/heroku-calc/internal/config"
-	"github.com/egg/heroku-calc/internal/heroku"
-	"github.com/egg/heroku-calc/internal/pricing"
+	"github.com/leaharmstrong/heroku-calc/internal/config"
+	"github.com/leaharmstrong/heroku-calc/internal/heroku"
+	"github.com/leaharmstrong/heroku-calc/internal/pricing"
 )
 
 // AppMode represents the current operation mode

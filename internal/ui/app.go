@@ -5,10 +5,10 @@ import (
 
 	"github.com/charmbracelet/bubbles/spinner"
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/egg/heroku-calc/internal/analysis"
-	"github.com/egg/heroku-calc/internal/config"
-	"github.com/egg/heroku-calc/internal/heroku"
-	"github.com/egg/heroku-calc/internal/pricing"
+	"github.com/leaharmstrong/heroku-calc/internal/analysis"
+	"github.com/leaharmstrong/heroku-calc/internal/config"
+	"github.com/leaharmstrong/heroku-calc/internal/heroku"
+	"github.com/leaharmstrong/heroku-calc/internal/pricing"
 )
 
 // Messages for async operations

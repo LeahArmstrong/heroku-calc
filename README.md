@@ -30,7 +30,7 @@ A powerful BubbleTea TUI application for analyzing and optimizing Heroku Rails a
 ### Build from Source
 
 ```bash
-git clone https://github.com/egg/heroku-calc
+git clone https://github.com/leaharmstrong/heroku-calc
 cd heroku-calc
 go build -o heroku-calc
 ```
@@ -38,7 +38,7 @@ go build -o heroku-calc
 ### Install
 
 ```bash
-go install github.com/egg/heroku-calc@latest
+go install github.com/leaharmstrong/heroku-calc@latest
 ```
 
 ## Usage

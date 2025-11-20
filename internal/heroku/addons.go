@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/egg/heroku-calc/internal/config"
+	"github.com/leaharmstrong/heroku-calc/internal/config"
 )
 
 // GetAddons retrieves all addons for the app

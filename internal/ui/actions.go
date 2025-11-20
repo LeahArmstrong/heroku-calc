@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/egg/heroku-calc/internal/config"
-	"github.com/egg/heroku-calc/internal/heroku"
-	"github.com/egg/heroku-calc/internal/report"
+	"github.com/leaharmstrong/heroku-calc/internal/config"
+	"github.com/leaharmstrong/heroku-calc/internal/heroku"
+	"github.com/leaharmstrong/heroku-calc/internal/report"
 )
 
 // applySelectedActions applies the selected recommendations

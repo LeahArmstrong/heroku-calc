@@ -20,7 +20,7 @@ The project has been organized into **11 meaningful commits** following conventi
 
 ### 2. `chore: initialize Go module with dependencies` (a406fef)
 **Dependency Management**
-- Initialized as `github.com/egg/heroku-calc`
+- Initialized as `github.com/leaharmstrong/heroku-calc`
 - Added BubbleTea v0.27.0 (TUI framework)
 - Added Lipgloss v0.13.0 (styling)
 - Added Bubbles v0.18.0 (UI components)
@@ -280,7 +280,7 @@ The repository is ready for:
 
 1. **Remote Setup**:
    ```bash
-   git remote add origin https://github.com/egg/heroku-calc.git
+   git remote add origin https://github.com/leaharmstrong/heroku-calc.git
    git push -u origin main
    ```
 

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 
 	tea "github.com/charmbracelet/bubbletea"
-	"github.com/egg/heroku-calc/internal/ui"
+	"github.com/leaharmstrong/heroku-calc/internal/ui"
 	"github.com/spf13/cobra"
 )
 

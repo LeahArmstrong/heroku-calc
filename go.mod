@@ -1,4 +1,4 @@
-module github.com/egg/heroku-calc
+module github.com/leaharmstrong/heroku-calc
 
 go 1.23.2
 

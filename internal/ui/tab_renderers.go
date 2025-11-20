@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/egg/heroku-calc/internal/heroku"
-	"github.com/egg/heroku-calc/internal/ui/tabs"
+	"github.com/leaharmstrong/heroku-calc/internal/heroku"
+	"github.com/leaharmstrong/heroku-calc/internal/ui/tabs"
 )
 
 // renderOverviewTab renders the overview tab

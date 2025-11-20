@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/egg/heroku-calc/internal/config"
-	"github.com/egg/heroku-calc/internal/heroku"
-	"github.com/egg/heroku-calc/internal/pricing"
+	"github.com/leaharmstrong/heroku-calc/internal/config"
+	"github.com/leaharmstrong/heroku-calc/internal/heroku"
+	"github.com/leaharmstrong/heroku-calc/internal/pricing"
 )
 
 // Analyzer performs configuration analysis

@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/egg/heroku-calc/internal/config"
+	"github.com/leaharmstrong/heroku-calc/internal/config"
 )
 
 // Client represents a Heroku API/CLI client

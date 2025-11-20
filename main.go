@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/egg/heroku-calc/cmd"
+	"github.com/leaharmstrong/heroku-calc/cmd"
 )
 
 func main() {

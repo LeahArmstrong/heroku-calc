@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/egg/heroku-calc/internal/config"
-	"github.com/egg/heroku-calc/internal/heroku"
+	"github.com/leaharmstrong/heroku-calc/internal/config"
+	"github.com/leaharmstrong/heroku-calc/internal/heroku"
 )
 
 // RenderOverview renders the overview tab

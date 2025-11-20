@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/egg/heroku-calc/internal/config"
+	"github.com/leaharmstrong/heroku-calc/internal/config"
 )
 
 // RenderAnalysis renders the analysis tab
