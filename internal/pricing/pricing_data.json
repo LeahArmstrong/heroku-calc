@@ -1,0 +1,217 @@
+{
+  "version": "2025-11-19",
+  "dynos": {
+    "eco": {
+      "name": "Eco",
+      "memory_mb": 512,
+      "price_monthly": 5.00,
+      "price_hourly": 0.007,
+      "compute": "1x"
+    },
+    "basic": {
+      "name": "Basic",
+      "memory_mb": 512,
+      "price_monthly": 7.00,
+      "price_hourly": 0.01,
+      "compute": "1x"
+    },
+    "standard-1x": {
+      "name": "Standard-1X",
+      "memory_mb": 512,
+      "price_monthly": 25.00,
+      "price_hourly": 0.034,
+      "compute": "1x"
+    },
+    "standard-2x": {
+      "name": "Standard-2X",
+      "memory_mb": 1024,
+      "price_monthly": 50.00,
+      "price_hourly": 0.069,
+      "compute": "2x"
+    },
+    "performance-m": {
+      "name": "Performance-M",
+      "memory_mb": 2560,
+      "price_monthly": 250.00,
+      "price_hourly": 0.347,
+      "compute": "2.5x-8x"
+    },
+    "performance-l": {
+      "name": "Performance-L",
+      "memory_mb": 14336,
+      "price_monthly": 500.00,
+      "price_hourly": 0.694,
+      "compute": "8x-32x"
+    },
+    "private-s": {
+      "name": "Private-S",
+      "memory_mb": 2560,
+      "price_monthly": 250.00,
+      "price_hourly": 0.347,
+      "compute": "performance-m"
+    },
+    "private-m": {
+      "name": "Private-M",
+      "memory_mb": 14336,
+      "price_monthly": 500.00,
+      "price_hourly": 0.694,
+      "compute": "performance-l"
+    },
+    "private-l": {
+      "name": "Private-L",
+      "memory_mb": 30720,
+      "price_monthly": 1000.00,
+      "price_hourly": 1.389,
+      "compute": "16x-64x"
+    }
+  },
+  "postgres": {
+    "mini": {
+      "name": "Mini",
+      "max_connections": 20,
+      "price_monthly": 5.00,
+      "storage_gb": 1,
+      "ram_mb": 1024
+    },
+    "basic": {
+      "name": "Basic",
+      "max_connections": 20,
+      "price_monthly": 9.00,
+      "storage_gb": 10,
+      "ram_mb": 1024
+    },
+    "standard-0": {
+      "name": "Standard-0",
+      "max_connections": 120,
+      "price_monthly": 50.00,
+      "storage_gb": 64,
+      "ram_mb": 4096
+    },
+    "standard-2": {
+      "name": "Standard-2",
+      "max_connections": 240,
+      "price_monthly": 200.00,
+      "storage_gb": 256,
+      "ram_mb": 8192
+    },
+    "standard-3": {
+      "name": "Standard-3",
+      "max_connections": 280,
+      "price_monthly": 350.00,
+      "storage_gb": 512,
+      "ram_mb": 15360
+    },
+    "standard-4": {
+      "name": "Standard-4",
+      "max_connections": 320,
+      "price_monthly": 500.00,
+      "storage_gb": 1024,
+      "ram_mb": 30720
+    },
+    "standard-5": {
+      "name": "Standard-5",
+      "max_connections": 400,
+      "price_monthly": 750.00,
+      "storage_gb": 1024,
+      "ram_mb": 61440
+    },
+    "standard-6": {
+      "name": "Standard-6",
+      "max_connections": 480,
+      "price_monthly": 1100.00,
+      "storage_gb": 1024,
+      "ram_mb": 122880
+    },
+    "premium-0": {
+      "name": "Premium-0",
+      "max_connections": 120,
+      "price_monthly": 200.00,
+      "storage_gb": 64,
+      "ram_mb": 8192,
+      "high_availability": true
+    },
+    "premium-2": {
+      "name": "Premium-2",
+      "max_connections": 240,
+      "price_monthly": 350.00,
+      "storage_gb": 256,
+      "ram_mb": 15360,
+      "high_availability": true
+    },
+    "premium-3": {
+      "name": "Premium-3",
+      "max_connections": 280,
+      "price_monthly": 700.00,
+      "storage_gb": 512,
+      "ram_mb": 30720,
+      "high_availability": true
+    },
+    "premium-4": {
+      "name": "Premium-4",
+      "max_connections": 320,
+      "price_monthly": 1000.00,
+      "storage_gb": 1024,
+      "ram_mb": 61440,
+      "high_availability": true
+    },
+    "premium-5": {
+      "name": "Premium-5",
+      "max_connections": 400,
+      "price_monthly": 1500.00,
+      "storage_gb": 1024,
+      "ram_mb": 122880,
+      "high_availability": true
+    }
+  },
+  "redis": {
+    "mini": {
+      "name": "Mini",
+      "max_connections": 20,
+      "price_monthly": 3.00,
+      "max_memory_mb": 25,
+      "eviction_policy": "noeviction"
+    },
+    "premium-0": {
+      "name": "Premium-0",
+      "max_connections": 40,
+      "price_monthly": 15.00,
+      "max_memory_mb": 100,
+      "high_availability": false
+    },
+    "premium-1": {
+      "name": "Premium-1",
+      "max_connections": 100,
+      "price_monthly": 50.00,
+      "max_memory_mb": 1024,
+      "high_availability": false
+    },
+    "premium-2": {
+      "name": "Premium-2",
+      "max_connections": 200,
+      "price_monthly": 100.00,
+      "max_memory_mb": 2560,
+      "high_availability": false
+    },
+    "premium-3": {
+      "name": "Premium-3",
+      "max_connections": 400,
+      "price_monthly": 200.00,
+      "max_memory_mb": 5120,
+      "high_availability": false
+    },
+    "premium-4": {
+      "name": "Premium-4",
+      "max_connections": 600,
+      "price_monthly": 350.00,
+      "max_memory_mb": 10240,
+      "high_availability": false
+    },
+    "premium-5": {
+      "name": "Premium-5",
+      "max_connections": 750,
+      "price_monthly": 750.00,
+      "max_memory_mb": 14336,
+      "high_availability": true
+    }
+  }
+}
